@@ -102,7 +102,7 @@ const AuthModal = ({ isOpen, onClose, onSuccess }) => {
             icon={<GoogleOutlined />}
             onClick={() => handleOAuthLogin("google")}
             block
-            style={{ backgroundColor: "#4285F4", color: "white" }}
+            style={{ backgroundColor: "#0000fc", color: "white" }}
           >
             Continue with Google
           </Button>
@@ -124,6 +124,7 @@ const AuthModal = ({ isOpen, onClose, onSuccess }) => {
         initialValues={{ remember: true }}
         onFinish={handleFormSubmit}
         autoComplete="off"
+        className="authform"
       >
         <Form.Item
           name="username"

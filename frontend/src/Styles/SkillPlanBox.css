@@ -36,14 +36,18 @@
   border: none;
   border-radius: 30px;
   padding: 12px 20px;
-  color: #ddd;
+  color: #a3a0a0;
   font-size: 0.95rem;
   cursor: pointer;
   transition: all 0.3s ease;
 }
 
+.ant-picker-input {
+  color: #a3a0a0!important;
+}
+
 .skill-input::placeholder {
-  color: #aaa;
+  color: #a3a0a0;
 }
 
 .skill-input:hover {
